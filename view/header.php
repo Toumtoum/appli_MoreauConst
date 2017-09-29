@@ -41,25 +41,3 @@
         <li><a href="#!">HOME PAGE</a></li>
         <li><a href="#!">PROJECTS</a></li>
       </ul>
-
-      <div class="container">
-        <ul class="collection with-header">
-          <li class="collection-header"><h4>PROJECT</h4></li>
-          <li class="collection-item" id=""><h6>Main step</h6></li>
-          <form action="#">
-            <li class="collection-item">
-              <input type="checkbox" id="test" />
-              <label for="test">Task</label>
-            </li>
-          </form>
-        </ul>
-      </div>
-
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-      <script type="text/javascript" src="js/main.js"></script>
-
-  </body>
-  </html>
-  

@@ -42,24 +42,43 @@
         <li><a href="#!">PROJECTS</a></li>
       </ul>
 
-      <div class="container">
-        <ul class="collection with-header">
-          <li class="collection-header"><h4>PROJECT</h4></li>
-          <li class="collection-item" id=""><h6>Main step</h6></li>
-          <form action="#">
-            <li class="collection-item">
-              <input type="checkbox" id="test" />
-              <label for="test">Task</label>
-            </li>
-          </form>
-        </ul>
-      </div>
+      <main>
+        <!-- CREATE NEW PROJECT-->
+
+        <form class="row" id="addProject">
+          <div class="input-field col s12">
+            <input placeholder="Project" id="project" type="text" class="validate">
+            <label for="project">PROJECT</label>
+          </div>
+          <div class="input-field col s12">
+            <input id="start" type="text" class="datepicker validate">
+            <label for="start">STARTING DATE</label>
+          </div>
+          <div class="input-field col s12">
+            <input id="end" type="text" class="datepicker validate">
+            <label for="end">ENDING DATE</label>
+          </div>
+          <a class="waves-effect waves-light btn">CREATE</a>
+        </form><hr>
+
+        <!--ADDING MAIN STEPS AND TASKS-->
+        <form class="row" id="addStepsTasks">
+          <div class="input-field col s12">
+            <input placeholder="STEP" id="step" type="text" class="validate">
+            <label for="step">MAIN STEP</label>
+          </div>
+          <div class="input-field col s12">
+            <input placeholder="TASK" id="task" type="text" class="validate">
+            <label for="task">TASK</label>
+          </div>
+          <a class="waves-effect waves-light btn">ADD</a>
+        </form>
+      </main>
 
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script type="text/javascript" src="js/main.js"></script>
 
-  </body>
-  </html>
-  
+      </body>
+      </html>
