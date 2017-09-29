@@ -29,10 +29,9 @@ main{
   text-align: center;
 }
 
-.row{
-  margin-top: 20px;
+#stepOne{
+  background-color: red;
 }
-
 /*MOBILE DIPLAY*/
 
 @media screen and (max-width: 480px){
@@ -52,8 +51,4 @@ main{
 .log{
   width: 300px;
   text-align: center;
-}
-
-.row{
-  margin-top: 20px;
 }
