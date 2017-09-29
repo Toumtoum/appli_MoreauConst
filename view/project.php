@@ -1,0 +1,15 @@
+      <div class="container">
+        <ul class="collection with-header">
+          <?php foreach ($data as $value) {?>
+          <li class="collection-header"><h4><?php echo $data['project'] ;?></h4></li>
+          <li class="collection-item" id=""><h6><?php echo $value['step'] ;?></h6></li>
+          <form action="#">
+            <li class="collection-item">
+              <input type="checkbox" id="test" />
+              <label for="test"><?php echo $value['task'] ;?></label>
+            </li>
+          </form>
+          <?php
+          } ?>
+        </ul>
+      </div>
