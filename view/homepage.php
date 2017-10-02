@@ -12,14 +12,18 @@ include 'header.php';
         <th>ENDING DATE</th>
       </tr>
     </thead>
+    <?php foreach ($infoProjects as $value){
+      ?>
     <tbody>
-      <tr onclick="document.location.href = '#'">
-        <td>test</td>
-        <td>test</td>
-        <td>test</td>
-        <td>test</td>
+      <tr onclick="document.location.href = '../controller/projectC.php?project=<?php echo $value['id'];?>'">
+        <td><?php echo $value['project'];?></td>
+        <td><?php echo $value['name'] . ' ' . $value['surname'] ;?></td>
+        <td><?php echo $value['startingDate']; ?></td>
+        <td><?php echo $value['endingDate']; ?></td>
       </tr>
     </tbody>
+    <?php
+      } ?>
   </table>
 </main>
 
