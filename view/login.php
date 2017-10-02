@@ -35,6 +35,7 @@
               <?php
              }?>
             </form>
+            <a href="../controller/logout.php">exit</a>
         </div>
 
         <!--Import jQuery before materialize.js-->

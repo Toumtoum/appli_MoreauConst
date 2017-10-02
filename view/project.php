@@ -5,8 +5,8 @@
     <li class="collection-item" id=""><h6><?php echo $value['step'] ;?></h6></li>
     <form action="#">
       <li class="collection-item">
-        <input type="checkbox" id="<?php echo $value['id'];?>"  />
-        <label for="<?php echo $value['id'];?>"><?php echo $value['task'] ;?></label>
+        <input type="checkbox" id="<?php echo $value['idTask'];?>"  />
+        <label for="<?php echo $value['idTask'];?>"><?php echo $value['task'] ;?></label>
       </li>
     </form>
     <?php

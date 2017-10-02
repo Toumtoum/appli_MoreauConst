@@ -32,12 +32,12 @@
       </nav>
       <!--CONTENT OF THE DROPDOWN MENU FOR DESKTOP-->
       <ul id="dropdown1" class="dropdown-content">
-        <li><a href=href="../controller/homepageC.php">HOME PAGE</a></li>
+        <li><a href="../controller/homepageC.php">HOME PAGE</a></li>
         <li><a href="#!">PROJECTS</a></li>
       </ul>
       <!--CONTENT OF THE DROPDOWN MENU FOR TABLET AND MOBILE-->
       <ul id="dropdown2" class="side-nav">
-        <li><a href=href="../controller/loginC.php">LOGIN</a></li>
-        <li><a href=href="../controller/homepageC.php">HOME PAGE</a></li>
+        <li><a href="../controller/loginC.php">LOGIN</a></li>
+        <li><a href="../controller/homepageC.php">HOME PAGE</a></li>
         <li><a href="#!">PROJECTS</a></li>
       </ul>
