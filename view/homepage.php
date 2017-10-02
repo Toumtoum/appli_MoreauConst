@@ -1,7 +1,3 @@
-<?php
-include 'header.php';
-?>
-
 <main>
   <table class="striped">
     <thead>
@@ -26,7 +22,3 @@ include 'header.php';
       } ?>
   </table>
 </main>
-
-<?php
-include 'footer.php';
- ?>

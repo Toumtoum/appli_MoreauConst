@@ -30,6 +30,10 @@
                 </div>
               </div>
               <input class="waves-effect waves-light btn" type="submit" value="LOG IN">
+              <?php if (isset($_SESSION['errors']['log'])){?>
+              <input style="text-align: center; color: red;" type="text" value="<?php echo $_SESSION['errors']['log'];?>">
+              <?php
+             }?>
             </form>
         </div>
 

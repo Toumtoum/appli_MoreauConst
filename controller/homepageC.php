@@ -2,7 +2,10 @@
 
 include "../model/homepageM.php";
 
+include "headerC.php";
+
 $infoProjects = displayAllProjects();
-var_dump($infoProjects);
 
 include '../view/homepage.php';
+
+include "../view/footer.php";

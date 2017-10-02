@@ -22,7 +22,7 @@
           <a href="#!" class="brand-logo">MOREAU CONST.</a>
           <!--NAVIGATION FOR DESKTOP-->
           <ul class="right hide-on-med-and-down">
-            <li><a href="../controller/loginC.php">LOGIN</a></li>
+            <li><?php echo $_SESSION['user'] ?></li>
             <li><a class="dropdown-button" href="#!" data-activates="dropdown1">MENU<i class="material-icons right">arrow_drop_down</i></a></li>
           </ul>
           <!--NAVIGATION FOR MOBILE AND TABLET-->
@@ -32,12 +32,14 @@
       </nav>
       <!--CONTENT OF THE DROPDOWN MENU FOR DESKTOP-->
       <ul id="dropdown1" class="dropdown-content">
-        <li><a href=href="../controller/homepageC.php">HOME PAGE</a></li>
-        <li><a href="#!">PROJECTS</a></li>
+        <li><a href="../controller/homepageC.php">HOME PAGE</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="../controller/logout.php">LOG OUT</a></li>
       </ul>
       <!--CONTENT OF THE DROPDOWN MENU FOR TABLET AND MOBILE-->
       <ul id="dropdown2" class="side-nav">
-        <li><a href=href="../controller/loginC.php">LOGIN</a></li>
-        <li><a href=href="../controller/homepageC.php">HOME PAGE</a></li>
-        <li><a href="#!">PROJECTS</a></li>
+        <li><?php echo $_SESSION['user'] ?></li>
+        <li><a href="../controller/homepageC.php">HOME PAGE</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="../controller/logout.php">LOG OUT</a></li>
       </ul>
