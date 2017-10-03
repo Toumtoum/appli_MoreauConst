@@ -34,7 +34,6 @@ $step = htmlspecialchars($_POST['task']);
 addTasks($step,$id_project);
 }
 
-var_dump($_POST);
 
 include '../view/addproject.php';
 
