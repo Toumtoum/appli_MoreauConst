@@ -19,7 +19,7 @@
     <body>
       <nav>
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">MOREAU CONST.</a>
+          <a href="../controller/homepageC.php" class="brand-logo">MOREAU CONST.</a>
           <!--NAVIGATION FOR DESKTOP-->
           <ul class="right hide-on-med-and-down">
             <li><a href="../controller/loginC.php">LOGIN</a></li>

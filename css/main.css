@@ -32,6 +32,11 @@ main{
 a{
   text-align: center;
 }
+
+form{
+  padding: 20px;
+  margin-top: 10px;
+}
 /*MOBILE DIPLAY*/
 
 @media screen and (max-width: 480px){

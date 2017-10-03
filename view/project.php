@@ -1,6 +1,7 @@
 <div class="container">
   <ul class="collection with-header">
-    <?php foreach ($data as $value) {?>
+    <?php foreach ($data as $value) {
+      ?>
     <li class="collection-header"><h4><?php echo $value['project'] ;?></h4></li>
     <li class="collection-item" id=""><h6><?php echo $value['step'] ;?></h6></li>
     <form action="#">

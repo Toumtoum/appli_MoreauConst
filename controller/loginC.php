@@ -10,6 +10,7 @@ if (isset($_POST['name']) && isset($_POST['pass']) && !empty($_POST['name']) && 
   $verif = verifUserLog($_POST['name'],$_POST['pass']);
   if ($verif){
     $_SESSION['user'] = $verif['surname'];
+    $_SESSION['userID'] = $verif['id'];
     header('location:homepageC.php');exit;
   }
   else{

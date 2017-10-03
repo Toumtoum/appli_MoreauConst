@@ -19,7 +19,7 @@
     <body>
       <nav>
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">MOREAU CONST.</a>
+          <a href="../controller/homepageC.php" class="brand-logo">MOREAU CONST.</a>
           <!--NAVIGATION FOR DESKTOP-->
           <ul class="right hide-on-med-and-down">
             <li><?php echo $_SESSION['user'] ?></li>
@@ -34,6 +34,7 @@
       <ul id="dropdown1" class="dropdown-content">
         <li><a href="../controller/homepageC.php">HOME PAGE</a></li>
         <li><a href="#">PROJECTS</a></li>
+        <li><a href="../controller/addprojectC.php"> Add PROJECT</a></li>
         <li><a href="../controller/logout.php">LOG OUT</a></li>
       </ul>
       <!--CONTENT OF THE DROPDOWN MENU FOR TABLET AND MOBILE-->
@@ -41,5 +42,6 @@
         <li><?php echo $_SESSION['user'] ?></li>
         <li><a href="../controller/homepageC.php">HOME PAGE</a></li>
         <li><a href="#">PROJECTS</a></li>
+        <li><a href="../controller/addprojectC.php"> Add PROJECT</a></li>
         <li><a href="../controller/logout.php">LOG OUT</a></li>
       </ul>
