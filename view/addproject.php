@@ -35,7 +35,7 @@
       <input placeholder="STEP" id="step" name="step" type="text" class="validate">
       <label for="step">MAIN STEP</label>
     </div>
-    <input class="waves-effect waves-light btn col s1" type="submit" value="ADD">
+    <input class="waves-effect waves-light btn" type="submit" value="ADD">
   </div>
   </form>
 

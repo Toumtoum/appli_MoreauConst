@@ -24,7 +24,7 @@ function addSteps ($step,$id_project){
                     'id_projects' => $id_project]);
 }
 
-function getProjectTasks($id_project){
+function getProjectSteps($id_project){
   $req = connectBdd() -> prepare('SELECT step,id FROM mainSteps WHERE id_projects = :id_project');
   $req -> execute(['id_project' => $id_project]);
   $data = $req -> fetchAll();

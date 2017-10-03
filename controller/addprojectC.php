@@ -24,7 +24,7 @@ addSteps($step,$id_project);
 }
 //ADDING TASKS IN A MAINSTEPS SELECT IN FORM AREA
 if((isset($_POST['id_project']) && !empty($_POST['id_project']))){
-$step = getProjectTasks($_POST['id_project']);
+$step = getProjectSteps($_POST['id_project']);
 }
 if (isset($_POST['task']) && !empty($_POST['task'])){
 
